@@ -38,7 +38,7 @@ function ConnectMenu({ theme }) {
   const open = Boolean(anchorEl);
   const id = open ? "ohm-popper-pending" : undefined;
 
-  const primaryColor = theme === "light" ? "#49A1F2" : "#ffe300";
+  const primaryColor = theme === "light" ? "#49A1F2" : "#d1d1d1";
   const buttonStyles =
     "pending-txn-container" + (isHovering && pendingTransactions.length > 0 ? " hovered-button" : "");
 

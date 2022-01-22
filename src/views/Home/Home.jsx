@@ -78,7 +78,7 @@ function Home() {
   const open = Boolean(anchorEl);
   const id = open ? "ohm-popper-pending" : undefined;
 
-  const primaryColor =  "#ffe300";
+  const primaryColor =  "#d1d1d1";
   const buttonStyles =
     "pending-txn-container" + (isHovering && pendingTransactions.length > 0 ? " hovered-button" : "");
 

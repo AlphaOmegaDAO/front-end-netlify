@@ -228,7 +228,7 @@ const ANavLink = styled(Link)`
   &:hover,&.active{
     text-decoration:none;
     h6{
-    color:#ffe300;
+    color:#d1d1d1;
     }
     ${ANavIcon}{
       background-image: url(${props => props.bg2});

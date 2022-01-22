@@ -7,9 +7,9 @@ import commonSettings from "./global.js";
 
 const darkTheme = {
   color: "#FCFCFC",
-  gold: "#ffe300",
+  gold: "#d1d1d1",
   gray: "#A3A3A3",
-  textHighlightColor: "#ffe300",
+  textHighlightColor: "#d1d1d1",
   backgroundColor: "#1F232D",
   // background:`
   // linear-gradient(180deg, rgba(8, 15, 53, 0), rgba(0, 0, 10, 0.9))
@@ -28,18 +28,18 @@ const darkTheme = {
   popoverBg: "rgba(54, 56, 64, 0.99)",
   menuBg: "#36384080",
   backdropBg: "rgba(54, 56, 64, 0.5)",
-  largeTextColor: "#ffe300",
+  largeTextColor: "#d1d1d1",
   activeLinkColor: "#F5DDB4",
   activeLinkSvgColor:
     "brightness(0) saturate(100%) invert(84%) sepia(49%) saturate(307%) hue-rotate(326deg) brightness(106%) contrast(92%)",
   primaryButtonColor: "#333333",
-  primaryButtonBG: "#ffe300",
+  primaryButtonBG: "#d1d1d1",
   primaryButtonHoverBG: "#EDD8B4",
   secondaryButtonHoverBG: "rgba(54, 56, 64, 1)",
-  outlinedPrimaryButtonHoverBG: "#ffe300",
+  outlinedPrimaryButtonHoverBG: "#d1d1d1",
   outlinedPrimaryButtonHoverColor: "#333333",
   outlinedSecondaryButtonHoverBG: "transparent",
-  outlinedSecondaryButtonHoverColor: "#ffe300", //gold
+  outlinedSecondaryButtonHoverColor: "#d1d1d1", //gold
   containedSecondaryButtonHoverBG: "rgba(255, 255, 255, 0.15)",
   graphStrokeColor: "rgba(255, 255, 255, .1)",
 };
@@ -263,7 +263,7 @@ export const dark = responsiveFontSizes(
             },
             "&:active": {
               color: darkTheme.gold,
-              borderBottom: "#ffe300",
+              borderBottom: "#d1d1d1",
             },
           },
           textSecondary: {

@@ -4,19 +4,19 @@ import commonSettings from "./global.js";
 
 export const girthTheme = {
   color: "#EFEFEF",
-  gold: "#ffe300",
-  textHighlightColor: "#ffe300",
+  gold: "#d1d1d1",
+  textHighlightColor: "#d1d1d1",
   backgroundColor: "#4158D0",
   background: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
   paperBg: "#4242426A",
   modalBg: "#F9F9F9AA",
-  primaryButtonBG: "#ffe300",
+  primaryButtonBG: "#d1d1d1",
   primaryButtonHoverBG: "#759AAE",
   largeTextColor: "#759AAE",
   activeLinkColor: "#222222",
   secondaryButtonBG: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
   secondaryButtonHoverBG: "rgba(54, 56, 64, 1)",
-  outlinedPrimaryButtonHoverBG: "#ffe300",
+  outlinedPrimaryButtonHoverBG: "#d1d1d1",
   outlinedPrimaryButtonHoverColor: "#333333",
   outlinedSecondaryButtonHoverBG: "#FCFCFC",
   outlinedSecondaryButtonHoverColor: "#333333",
@@ -157,7 +157,7 @@ export const girth = responsiveFontSizes(
             },
             "&:active": {
               color: girthTheme.gold,
-              borderBottom: "#ffe300",
+              borderBottom: "#d1d1d1",
             },
           },
           textSecondary: {

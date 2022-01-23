@@ -26,11 +26,11 @@
 
 .boodyBox {
     width: 100vw;
-    // height: 100%;
-    // background-image: url('../../assets/ohm/bg.png');
-    // background-repeat: no-repeat;
-    // background-position: right -10% top 0;
-    // padding-top: 110px;
+ height: 100%;
+ background-image: url('../../assets/ohm/bg.png');
+ background-repeat: no-repeat;
+ background-position: right -10% top 0;
+    padding-top: 110px;
     position: relative;
     z-index: 1;
     @media (max-width: 1000px) {
@@ -475,7 +475,7 @@
     padding: 10px 20px;
     border-radius: 10px;
     // background-color: #31384560;
-    color: #f26e63;
+    color: #d0d0d0;
     line-height: 1.71;
 }
 .Content_Box4 {

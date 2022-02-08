@@ -1,1 +1,1 @@
-# PIDAO-frontend
+# ALPHA & OMEGA DAO-frontend
